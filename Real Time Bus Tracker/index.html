@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>Real Time Bus Animation</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    
+   
+    <div id="map"></div>
+    <div class="map-overlay top">
+        <button style="font-size: 2em;" onclick="addMarkers()">Show Live Bus Location</button>
+        <button style="font-size: 1.5em;" onclick="toggleBus()">Toggle Bus</button>
+        <!-- <button style="font-size: 1em;" class="" onclick="">Bus #1</button>
+        <button style="font-size: 1em;" class="" onclick="">Bus #2</button>
+        <button style="font-size: 1em;" class="" onclick="">Bus #3</button> -->
+    </div>
+    <script src="./mapanimation.js"></script>
+</body>
+</html>
